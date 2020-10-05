@@ -49,11 +49,11 @@ function getCss() {
       font-family: "PT Sans", sans-serif;
     }
     .header img {
-      width: 60px;
-      margin-right: 24px;
+      width: 80px;
+      margin-right: 30px;
     }
     .header span {
-      font-size: 43.2px;
+      font-size: 60px;
     }
     
     .title {
@@ -64,7 +64,7 @@ function getCss() {
 
     .subtitle {
       font-family: "PT Serif", serif;
-      font-size: 80px;
+      font-size: 62.4px;
       color: #5b6987;
       margin-top: 40px;
     }`;
