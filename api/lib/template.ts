@@ -6,10 +6,6 @@ const ptsansregu = readFileSync(
   `${__dirname}/../fonts/PTSans-Regular.ttf`
 ).toString("base64");
 
-const ptsansbold = readFileSync(
-  `${__dirname}/../fonts/PTSans-Bold.ttf`
-).toString("base64");
-
 const ptserifregu = readFileSync(
   `${__dirname}/../fonts/PTSerif-Regular.ttf`
 ).toString("base64");
@@ -24,13 +20,6 @@ function getCss() {
       font-style:  normal;
       font-weight: normal;
       src: url(data:font/ttf;charset=utf-8;base64,${ptsansregu}) format('ttf');
-    }
-
-    @font-face {
-      font-family: 'PT Sans';
-      font-style:  normal;
-      font-weight: bold;
-      src: url(data:font/ttf;charset=utf-8;base64,${ptsansbold}) format('ttf');
     }
 
     @font-face {
@@ -57,7 +46,7 @@ function getCss() {
       left: 60px;
       display: flex;
       align-items: center;
-      font-family: "PT-Sans", sans-serif;
+      font-family: "PT Sans", sans-serif;
     }
     .header img {
       width: 60px;
@@ -68,13 +57,13 @@ function getCss() {
     }
     
     .title {
-      font-family: "PT-Sans", sans-serif;
+      font-family: "PT Sans", sans-serif;
       font-size: 144px;
       color: #222222;
     }
 
     .subtitle {
-      font-family: "PT-Serif", serif;
+      font-family: "PT Serif", serif;
       font-size: 80px;
       color: #5b6987;
       margin-top: 40px;
